@@ -19,6 +19,12 @@ body {
     float: left;
 }
 
+img {
+    max-width: 100%;
+    height: auto;
+    width: auto\9; 
+}
+
 a {
     color: #d38484;
     text-decoration: none;
@@ -48,6 +54,7 @@ header {
     padding: 1%;
     background-color: #fafafa;
     border-bottom: 2px solid silver;
+    margin-bottom: 20px;
 }
 
 header #logo {
@@ -94,6 +101,148 @@ header #regAuth {
 }
 
 /* Header End */
+
+
+/* Document Staty */
+
+#wrapper {
+    width: 80%;
+    margin-left: 10%;
+    float: left;
+}
+
+/* Styles for Left Col */
+
+#wrapper #leftCol {
+    width: 70%;
+    margin-right: 10%;
+    float: left;
+}
+
+#wrapper #leftCol #bigArticle {
+    width: 78%;
+    margin-left: 10%;
+    background-color: #f6f6f6;
+    padding: 1%;
+    float: left;
+}
+
+#wrapper #leftCol #bigArticle img, #wrapper #leftCol .article img {
+    widows: 100%;
+    float: left;
+    margin-bottom: 10px;
+}
+
+#wrapper #leftCol #bigArticle h2, #wrapper #leftCol .article h2 {
+    font-weight: normal;
+    font-size: 1.4em;
+    color: #636363;
+    font-family: Comic Sans MS, sans-serif;
+}
+
+#wrapper #leftCol #bigArticle p, #wrapper #leftCol .article p {
+    width: 90%;
+    margin-left: 5%;
+}
+
+#wrapper #leftCol #bigArticle div.more, #wrapper #leftCol .article div.more {
+    padding: 5px;
+    border-radius: 5px;
+    background-color: #878787;
+    color: #fff;
+    width: 15%;
+    text-align: center;
+    margin-top: 10px;
+}
+
+#wrapper #leftCol #bigArticle div.more:hover, #wrapper #leftCol .article div.more:hover {
+    background-color: #a2a2a2;
+}
+
+#wrapper #leftCol .article {
+    width: 40%;
+    margin-left: 5%;
+    float: left;
+    background-color: #f6f6f6;
+    padding: 1%;
+}
+
+#wrapper #leftCol .article div.more {
+    width: 20%;
+}
+
+
+/* Styles for Page About */
+
+#wrapper #leftCol #about_us h2 {
+    margin-bottom: 15px;
+}
+
+#wrapper #leftCol #about_us {
+    width: 76%;
+    margin-left: 10%;
+    border: 1px solid silver;
+    background-color: #f4f4f4;
+    padding: 2%;
+}
+
+#wrapper #leftCol input {
+    width: 40%;
+    float: left;
+    margin-left: 30%;
+    border-radius: 5px;
+    border: 2px solid silver;
+    padding: 5px;
+    color: #afebf8;
+    margin-bottom: 10px;
+    font-size: 1.2em;
+}
+
+#wrapper #leftCol input:focus, #wrapper #leftCol textarea:focus {
+    border: 2px solid #f78080;
+}
+
+#wrapper #leftCol input#done:hover {
+    border: 2px solid #f8d881;
+    cursor: pointer;
+}
+
+#wrapper #leftCol textarea {
+    width: 50%;
+    float: left;
+    margin-left: 25%;
+    border-radius: 5px;
+    border: 2px solid silver;
+    padding: 5px;
+    color: #afebf8;
+    margin-bottom: 10px;
+    font-size: 1.2em;
+    resize: none;
+    height: 150px;
+}
+
+
+
+/* Styles for Page About End */
+
+/* Styles for Right Col */
+
+#wrapper #rightCol {
+    width: 20%;
+    float: left;
+}
+
+#wrapper #rightCol .banner {
+    float: left;
+    width: 100%;
+    margin-bottom: 20px;
+    border: 2px solid silver;
+    box-sizing: border-box;
+}
+
+
+/* Document Staty End */
+
 
 /* footer */
 

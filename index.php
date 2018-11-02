@@ -1,50 +1,47 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>ახალი ამბები</title>
-    <link rel="stylesheet" href="css/style.css">
+    <?php 
+        $title = "ახალი ამბები";
+        require_once "blocks/head.php" 
+    ?>
+    
 </head>
 <body>
-    <header>
-        <div id="logo">
-            <a href="/" title="მთავარ გვერდზე გადასვლა"><span>ს</span>იახლეები</a>
-        </div>
-        <div id="menuHead">
-            <a href="/about.php">
-                <div style="margin-right: 5%;">ჩვენს შესახებ</div>
-            </a>
-            <a href="/feedback.php">
-             <div>კონტაქტი</div>
-            </a>
-        </div>
-        <div id="regAuth">
-           <a href="/reg.php">
-               რეგისტრაცია
-           </a> | 
-           <a href="/auth.php">
-               ავტორიზაცია
-           </a>
-        </div>
-    </header>
 
-    <footer>
-        <div id="social">
-            <a href="http://vk.com" title="ჯგუფი VK" target="blank">
-                <img src="/img/vk.png" alt="VK" title="VK">
-            </a>
-            <a href="http://facebook.com" title="ჯგუფი facebook" target="blank">
-                <img src="/img/facebook.png" alt="Facebook" title="Facebook">
-            </a>
-            <a href="http://twitter.com" title="ჯგუფი twitter" target="blank">
-                <img src="/img/twitter.png" alt="Twitter" title="Twitter">
-            </a>
+<?php require_once "blocks/header.php" ?>
+
+    <div id="wrapper">
+        <div id="leftCol">
+            <div id="bigArticle">
+                <img src="/img/articles/1.jpg" alt="სტატია 1" title="სტატია 1">
+                <h2>სტატია 1</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque deserunt velit voluptas nihil? Voluptate cum id at quia vero dolores dolor non voluptatum et! Tempore quae velit quis assumenda voluptatibus?</p>
+                <a href="/article.php">
+                    <div class="more">შემდეგ</div>
+                </a>
+            </div>
+            <div class="clear"><br></div>
+            <div class="article">
+               <img src="/img/articles/2.jpg" alt="სტატია 1" title="სტატია 1">
+                <h2>სტატია 1</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque deserunt velit voluptas nihil?</p>
+                <a href="/article.php">
+                    <div class="more">შემდეგ</div>
+                </a>
+            </div>
+            <div class="article">
+                <img src="/img/articles/3.jpg" alt="სტატია 1" title="სტატია 1">
+                <h2>სტატია 1</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque deserunt velit voluptas nihil?</p>
+                <a href="/article.php">
+                    <div class="more">შემდეგ</div>
+                </a>
+            </div>
         </div>
-        <div id="rights">
-            ყველა უფლება დაცულია &copy; <?php echo date ('Y')?>
-        </div>
-    </footer>
+
+    <?php require_once "blocks/rightCol.php" ?>
+
+    <?php require_once "blocks/footer.php" ?>
 </body>
 </html>
