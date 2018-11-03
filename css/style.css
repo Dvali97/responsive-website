@@ -171,6 +171,14 @@ header #regAuth {
     width: 20%;
 }
 
+#wrapper #leftCol #messageShow {
+    font-size: 1.2em;
+    float: left;
+    color: red;
+    width: 100%;
+    text-align: center;
+}
+
 
 /* Styles for Page About */
 
